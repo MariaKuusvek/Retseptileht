@@ -1,3 +1,12 @@
 #pealkiri{color: #747038; font-family: "Comic Sans MS", cursive, sans-serif; font-size: 50px; text-align: center;}
-body{background-color: #b41b00;}
+body{background-color: #b41b00; height: 100%}
+body, html {
+    height: 100%;
+    margin: 0;
+  }
 #taust2{background-color: rgb(255, 248, 190);}
+#kaanefoto{background-image: url("https://media3.s-nbcnews.com/j/newscms/2019_41/3044956/191009-cooking-vegetables-al-1422_ae181a762406ae9dce02dd0d5453d1ba.nbcnews-fp-1200-630.jpg"); 
+    background-position: 60% 77%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45%}
