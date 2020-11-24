@@ -1,22 +1,28 @@
-body{background-color: #b41b00;}
+body{background-color: darkgray;}
+
+.ülemine-riba{
+    background-color: blanchedalmond;
+    overflow: hidden;
+    font-size: 16px;
+    text-transform: uppercase;
+}
 .ülemine-riba a:link{
     text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-size: 16px;
-    background-color: green;
+    background-color:#54d658;
     padding: 6px 10px;
     display: inline-block;
+    color: white;
 }
 .ülemine-riba a:visited{
     text-decoration: none;
     color: white;
-    text-transform: uppercase;
-    font-size: 16px;
-}
-.ülemine-riba{
-    background-color: blanchedalmond;
 }
 .ülemine-riba #about{
     float: right;
+}
+h1{
+    font-family: "Courier New", Courier, monospace;
+}
+p{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
