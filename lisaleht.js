@@ -1,13 +1,9 @@
-//Google maps tutorial: https://developers.google.com/maps/documentation/javascript/adding-a-google-map#maps_add_map-typescript
+//Google maps tutorial: https://www.w3schools.com/graphics/google_maps_basic.asp
 
-function initMap() {
-	const uluru = { lat: -25.344, lng: 131.036 };
-	const map = new google.aps.Map(document.getElementById("map"), {
-		zoom: 4
-		center: uluru,
-	});
-	const marker = new google.amps.Marker({
-		position: uluru,
-		map: map,
-	});
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }

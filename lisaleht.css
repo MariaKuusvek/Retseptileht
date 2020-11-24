@@ -18,11 +18,11 @@ body {
 
 .column{
 	float: left;
-	width:50%;
-	
+	width:50%;	
 }
 
-#map {
-	height: 400px;
-	width: 100%;
+#googleMap {
+	float: right;
+	width:50%;
+	height:400px;
 }
