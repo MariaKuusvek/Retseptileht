@@ -6,47 +6,58 @@
 <head>
 	<title> Lisaleht </title>
 	<link rel = "stylesheet" href = "lisaleht.css">
-	<script src="lisaleht.js"></script>
+	<script src = "lisaleht.js"></script>
 </head>
 
 <body>
 
-<div class="titlediv">
-	<h1 class="title"> ABOUT </h1>
+<div class = "titlediv">
+	<h1 class = "title"> ABOUT </h1>
 </div>
 
-<div class="about_container">
-	<p class="sansserif"> 
+<div class = "about_container">
+	<p class = "sansserif"> 
 	Teretulemast tudengi retsepti lehele! 
 	Siit saate leida endale sobiva retsepti, ükskõik milliseks olukorraks. 
 	Pealehest leiate meie retseptid, valige mis sobib teile ja hakka tegema!
-	Alt leiate informatsiooni, kuidas meid leida, ja kui soovite lisainformatsiooni, täide alumine vorm.
+	Alt leiate informatsiooni, kus meie asume ja kust meid nettist leida.
+	Kui soovite lisa informatsiooni, täidke alumine vorm.
 	</p>
 </div>
 
-<div class= "about_container_maps">
+<div class = "about_container_maps">
 	
-	<div id="googleMap"></div>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBziJR15HB99n5b8UtzFFLyGDSzt1qA4gg&callback=myMap"></script>
+	<div id = "googleMap" alt = "Map mis näitab kus meie kontor/restaurandid asuvad"></div>
+	<script src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBziJR15HB99n5b8UtzFFLyGDSzt1qA4gg&callback=myMap"></script>
 
-	<div class="form_div">
-		<form id="retseptiform">
-		<input type="text" placeholder="Eesnimi...">
-		<input type="text" placeholder="Perekonnanimi..."> <br>
-		<input type="text" placeholder="Email...">
+	<div class = "form_div">
+		<form id = "retseptiform">
+		<input type = "text" placeholder = "Eesnimi...">
+		<input type = "text" placeholder = "Perekonnanimi..."> <br>
+		<input type = "text" placeholder = "Email...">
 		
 		<select>
-		<option value="Riik..." class="dropDownPlaceholder"> Riik... </option>
-		<option value="Eesti"> Eesti </option>
-		<option value="Läti"> Läti </option>
-		<option value="Leedu"> Leedu </option>
+		<option value = "Riik..." class = "dropDownPlaceholder"> Riik... </option>
+		<option value = "Eesti"> Eesti </option>
+		<option value = "Läti"> Läti </option>
+		<option value = "Leedu"> Leedu </option>
 		</select>
 		<br>
-		<textarea rows="10" placeholder="Kommentaar..."form="retseptiform"> </textarea>
-		<input type= "submit">
+		
+		<textarea rows = "10" placeholder = "Kommentaar..." form = "retseptiform"> </textarea>
+		<input type = "submit">
+		
 		</form>
 	</div>
 	
+</div>
+
+<div class = "about_container">
+	<h3 class="sansserif"> Leidke meid siit: </h3>
+	<a href="#" class="social-instagram">insta</a>
+	<a href="#" class="social-facebook">facebook</a>
+	<a href="#" class="social-twitter">twitter</a>
+	<a href="#" class="social-youtube">youtube</a>
 </div>
 
 </body>

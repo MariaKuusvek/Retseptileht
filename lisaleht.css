@@ -51,6 +51,7 @@ input[type=text], select{
 
 input[type=text]:hover, select:hover{
 	  border-color: #64656e;
+	  transition: 0.5s;
 }
 
 input[type=submit] {
@@ -66,6 +67,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
 	background-color: #64656e;
+	transition: 0.5s;
 }
 
 textarea {
@@ -79,6 +81,7 @@ textarea {
 
 textarea:hover {
 	border-color: #64656e;
+	transition: 0.5s;
 }
 
 #googleMap {
@@ -87,3 +90,9 @@ textarea:hover {
 	height:400px;
 	border-radius: 10px;
 }
+
+.social {
+	
+}
+
+
