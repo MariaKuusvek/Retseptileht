@@ -23,7 +23,7 @@ body, html {
 .slide {
 	display:none;
 	background-color: rgb(255, 248, 190);
-	padding: 20px;
+	padding: 15px;
 }
 
 .slideshow {
@@ -47,4 +47,24 @@ body, html {
 
 .prev:hover, .next:hover {
 	background-color: rgba(150,140,100);
+}
+
+img {
+	width: 25%;
+	heigh: 100%;
+}
+
+.retseptiTekst {
+	float: right;
+	width: 75%;
+}
+
+h2, p {
+	margin: 0 20px;
+}
+
+.aboutLehtLink  {
+	text-align: center;
+	padding: 10px;
+	background-color: rgb(255, 248, 190);
 }
