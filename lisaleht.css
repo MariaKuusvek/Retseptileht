@@ -1,6 +1,11 @@
 
 body {
-	background-color: lightgrey;
+	background-image: url("https://media3.s-nbcnews.com/j/newscms/2019_41/3044956/191009-cooking-vegetables-al-1422_ae181a762406ae9dce02dd0d5453d1ba.nbcnews-fp-1200-630.jpg"); 
+    background-position: 60% 537%;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 45%
 }
 	
 .title {
@@ -14,6 +19,7 @@ body {
 	padding: 10px;
 	border: 5px solid #9fa1b3;
 	border-radius: 50px;
+	background-color: white;
 }
 
 .sansserif {
