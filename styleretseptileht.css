@@ -1,7 +1,16 @@
 h1{
     text-align: center;
 }
-ul{
+h4{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+}
+ul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+
+}
+.left{
+    background-color: rgb(255, 248, 190);
+    float: left;
+    padding: 20px;
+    line-height: 24px;
 }
