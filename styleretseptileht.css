@@ -17,9 +17,9 @@ ul{
     border-width: 8px;
     border-style: solid;
 }
-#pilt{
-    width: 50%;
-    height: 50%;
+img{
+    width: 520px;
+    height: 340px;
     float: inline-end;
     border-radius: 10px;
     border-color: rgba(170,160,130,0.5);
@@ -33,4 +33,8 @@ ul li{
 .checked{
     text-decoration: line-through;
     opacity: 0.5;
+}
+iframe{
+    width: 520px;
+    height: 340px;
 }
