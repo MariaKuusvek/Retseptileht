@@ -6,7 +6,6 @@ h4{
 }
 ul{
     font-family: Verdana, Geneva, Tahoma, sans-serif;  
-
 }
 .left{
     background-color: rgb(255, 248, 190);
@@ -26,4 +25,12 @@ ul{
     border-color: rgba(170,160,130,0.5);
     border-width: 8px;
     border-style: solid;
+}
+ul li{
+    cursor: pointer;
+
+}
+.checked{
+    text-decoration: line-through;
+    opacity: 0.5;
 }
