@@ -19,3 +19,12 @@ iframe{
     width: 520px;
     height: 340px;
 }
+.loetelu{
+    display: block;
+    position: relative;
+    padding: 8px;
+    cursor: pointer;
+}
+.loetelu input{
+    cursor: pointer;
+}
