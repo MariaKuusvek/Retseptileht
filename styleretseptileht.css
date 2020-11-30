@@ -15,14 +15,6 @@ img{
     border-width: 8px;
     border-style: solid;
 }
-ul li{
-    cursor: pointer;
-
-}
-.checked{
-    text-decoration: line-through;
-    opacity: 0.5;
-}
 iframe{
     width: 520px;
     height: 340px;
