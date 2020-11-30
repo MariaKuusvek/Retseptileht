@@ -57,9 +57,31 @@ textarea:hover {
 	border-radius: 10px;
 }
 
+.container {
+	height: 125px;
+}
+
 .social {
 	width: 50px;
 	height: 50px;
 }
 
+.leidkeMeidSiit {
+	float: left;
+	width: 50%
+}
 
+.emailAadress {
+	float: left;
+	width: 50%
+}
+
+.email {
+	color: blue;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.aadress {
+	color: red;
+	font-family: Arial, Helvetica, sans-serif;
+}
