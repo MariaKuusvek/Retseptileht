@@ -1,22 +1,11 @@
 h1{
     text-align: center;
 }
-h4{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.container {
+	float: left;
 }
-ul{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;  
-}
-.left{
-    background-color: rgb(255, 248, 190);
-    float: left;
-    padding: 20px;
-    line-height: 24px;
-    border-radius: 10px;
-    border-color: rgba(170,160,130,0.5);
-    border-width: 8px;
-    border-style: solid;
-}
+
 img{
     width: 520px;
     height: 340px;
