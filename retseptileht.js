@@ -1,4 +1,8 @@
-function toggle_checked() {
-    var element = document.getElementById("checklist");
-    element.classList.toggle("checked");
+//kood võetud w3school leheküljelt
+
+var list = document.querySelector('ul');
+ list.addEventListener('click', function(ev) {
+  if (ev.target.tagName === 'LI') {
+    ev.target.classList.toggle('checked');
   }
+}, false);
